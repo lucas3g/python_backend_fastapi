@@ -1,6 +1,6 @@
 import httpx
 from app.utils.formatters import toDoubleDecimal
-from app.models.bids import Bids
+from models.bids import Bids
 
 # Endpoint da API de cotações
 url = 'https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL'
